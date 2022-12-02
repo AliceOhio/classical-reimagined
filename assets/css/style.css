@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@300;400&family=Quicksand:wght@400;500&display=swap');
 
-* (
+* {
     margin: 0;
     padding: 0;
     border: none;
-)
+}
 
 body {
     font-family: Martel, sans-serif;
+    color: #171410;
+    background-color: #f1efed;
+}
+
+/* headings and logo */
+h1, h2 {
+    font-family: Quicksand; sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 6px;
+    color: #453d31;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
