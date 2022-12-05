@@ -128,6 +128,13 @@ h1, h2 {
     right: 150px;
     position: center;
 } */
+/* about me */
+.aboutme {
+    position: relative;
+    padding: 175px 350px;
+    text-align: left;
+
+}
 
 /* footer */
 footer {
