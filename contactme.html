@@ -32,11 +32,66 @@
 
     <br>
 
-    <section class="hero">
-        <div class="contactme">
-           
+    <!-- <section class="hero"> -->
+        <form class="contactme" method="POST" action="#">
+            <h2>Tell me a bit more about you!</h2>
+            <label for="fname">First Name:</label>
+            <input type="text" name="firstname" id="fname" required>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lastname" id="lname">
+            <br>
+            <label for="pronoun">Pronoun(s):</label>
+            <select name="pronoun" id="pronoun" required>
+                <option value="he">he</option>
+                <option value="she">she</option>
+                <option value="they">they</option>
+                <option value="heshethey">he/she/they</option>
+                <option value="noanswer">prefer not to say</option>
+            </select>
+          <br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required>    
+            <br>
+            <label for="sty.like">Music Styles I Like (check off all you like):</label><br>
+            <input type="checkbox" name="stylike" id="classical" value="classical" required>
+            <label for="classical">classical</label><br>
 
+            <input type="checkbox" name="stylike" id="classical" value="classical">
+            <label for="rock">rock</label><br>
 
+            <input type="checkbox" name="stylike" id="classical" value="classical">
+            <label for="bluesjazz">blues/jazz</label><br>
+
+            <input type="checkbox" name="stylike" id="classical" value="classical">
+            <label for="countryfolk">country/folk</label><br>
+
+            <input type="checkbox" name="stylike" id="classical" value="classical">
+            <label for="altrock">alternative rock</label><br>
+
+            <input type="checkbox" name="stylike" id="classical" value="classical">
+            <label for="opera">opera</label><br>
+
+            <input type="checkbox" name="stylike" id="classical" value="classical">
+            <label for="rap">rap</label><br>
+
+            <input type="checkbox" name="stylike" id="classical" value="classical">
+            <label for="hiphop">hiphop</label><br>
+
+            <input type="checkbox" name="stylike" id="classical" value="classical">
+            <label for="house">house</label><br>
+
+            <label for="favband">Favorite Band and/or Song:</label>
+            <input type="text" name="favband" id="favband"><br>
+            
+            
+            <label for="addl">Additional information you would like to share with me (suggestion: your favorite band or favorite song):</label><br>
+            <textarea name="addl" id="addl" cols="30" rows="10">your answer here</textarea><br>
+
+            
+            <button type="submit">Submit</button>
+        
+        </form>
     </section>
 
     <footer>
