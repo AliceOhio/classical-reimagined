@@ -9,8 +9,8 @@
 body {
     font-family: Martel, sans-serif;
     font-weight: 300;
-    color: #171410;
-    background-color: #f1efed;
+    color: #0B0A08;
+    background-color: #D5D1CB;
 }
 
 /* headings and logo */
@@ -49,11 +49,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1.5px solid #171410;
+    border-bottom: 1.5px solid #0B0A08;
 }
 
 .active {
-    border-bottom: 1.5px solid #171410;
+    border-bottom: 1.5px solid #0B0A08;
 }
 
 /* hero image and description */
@@ -78,7 +78,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    filter: opacity(75%)
+    filter: opacity(55%)
 }
 .hero-content {
     position: relative;
@@ -90,7 +90,8 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     height: 200px;
-    border: 3px solid #171410;
+    border-top: 2px solid #171410;
+    border-bottom: 2px solid #171410;
     padding: 175px 325px;
 }
 
@@ -133,7 +134,10 @@ h1, h2 {
     position: relative;
     padding: 175px 350px;
     text-align: left;
-
+    text-size: 120%;
+    font-size: larger;
+    color: #0B0A08;
+    font-weight: 700;
 }
 
 /* footer */
