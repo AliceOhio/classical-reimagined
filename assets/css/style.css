@@ -140,6 +140,21 @@ h1, h2 {
     font-weight: 700;
 }
 
+/* contact me */
+
+.contactme {
+    padding: 175px;
+}
+
+input[type=text]:focus {
+    background-color: #D5D1CB;
+  }
+
+textarea {
+    resize: none;
+}
+
+
 /* footer */
 footer {
     height: 150px;
