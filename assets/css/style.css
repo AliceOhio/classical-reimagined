@@ -37,7 +37,8 @@ h1, h2 {
     line-height: 75px;
 
     flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: space-between;
+    
 }
 /* 
 #menu, #logo {
