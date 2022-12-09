@@ -102,7 +102,7 @@ h1, h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60ch;
+    width: 60ch;
     border: 0.5px solid #453d31;
     padding: 175px 325px;
     
@@ -142,21 +142,47 @@ h1, h2 {
     right: 150px;
     position: center;
 } */
+
 /* about me */
 .aboutme {
-    position: relative;
+    /* position: relative;
     padding: 175px 350px;
     text-align: left;
     text-size: 120%;
     font-size: larger;
     color: #0B0A08;
-    font-weight: 700;
+    font-weight: 700; */
+
+    font-family: Martel, sans-serif;
+    color: #0B0A08;
+    font-weight: 900;
+    text-align: center;
+    margin: 500px;
+    background-color: rgba(241, 239, 237, 0.6);
+
+    /* justify-content: center;
+    align-items: center; */
+    width: 60ch;
+    border: 0.5px solid #453d31;
+    padding: 175px 325px;
 }
 
-/* contact me */
+/* get ahold of me */
 
-.contactme {
-    padding: 175px;
+.getahold {
+    padding: 50px;
+    font-family: Martel, sans-serif;
+    color: #0B0A08;
+    font-weight: 900;
+    text-align: center;
+    margin: 500px;
+    background-color: rgba(241, 239, 237, 0.6);
+
+    /* justify-content: center;
+    align-items: center; */
+    width: 60ch;
+    border: 0.5px solid #453d31;
+    padding: 175px 325px;
 }
 
 input[type=text]:focus {
