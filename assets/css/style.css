@@ -31,13 +31,13 @@ h1, h2 {
 /* navigation links (need to increase spacing between page names)*/
 #menu {
     font-size: 110%;
-    letter-spacing: 6px;
+    letter-spacing: 1px;
     margin: 0 1vw;
     display: flex;
-    line-height: 75px;
+    line-height: 70px;
 
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around flex-end;
     
 }
 /* 
