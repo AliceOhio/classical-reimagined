@@ -38,14 +38,13 @@
     <section class="hero">
         <form class="getahold" method="POST" action="#">
             <h2>Tell me a bit more about you!</h2>
-            <label for="fname">First Name:</label>
-            <input type="text" name="firstname" id="fname" required>
-            <br>
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lastname" id="lname">
+            <!-- <label for="fname">First Name:</label> -->
+            <input type="text" name="firstname" id="fname" placeholder="first name" required aria-label="first name">
+            <!-- <label for="lname">Last Name:</label> -->
+            <input type="text" name="lastname" id="lname" placeholder="last name" aria-label="last name">
             <br>
             <label for="pronoun">Pronoun(s):</label>
-            <select name="pronoun" id="pronoun" required>
+            <select name="pronoun" id="pronoun" required placeholder="pronoun(s)" required aria-label="pronoun(s)">
                 <option value="he">he</option>
                 <option value="she">she</option>
                 <option value="they">they</option>
@@ -53,10 +52,14 @@
                 <option value="noanswer">prefer not to say</option>
             </select>
           <br>
-            <label for="email">Email Address:</label>
-            <input type="email" name="email" id="email" required>    
+            <!-- <label for="email">Email Address:</label> -->
+            <input type="email" name="email" id="email" placeholder="email" required aria-label="email">    
             <br>
-            <label for="sty.like">Music Styles I Like (check off all you like):</label><br>
+
+            <div class="musicstyles">
+            <label for="sty.like" >Music Styles I Like (check off all you like):</label>
+            <br>
+            
             <input type="checkbox" name="classical" id="classical" value="classical">
             <label for="classical">classical</label><br>
 
@@ -86,10 +89,11 @@
 
             <label for="favband">Favorite Band and/or Song:</label>
             <input type="text" name="favband" id="favband"><br>
+        </div>
             
             
             <label for="addl">Additional information you would like to share with me (suggestion: your favorite band or favorite song):</label><br>
-            <textarea name="addl" id="addl" cols="30" rows="10">your answer here</textarea><br>
+            <textarea name="addl" id="addl" cols="30" rows="10">Additional information you would like to share with me (suggestion: your favorite band or favorite song):</textarea><br>
 
             
             <button type="submit">Submit</button>

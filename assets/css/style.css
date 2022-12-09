@@ -32,7 +32,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 1px;
-    margin: 0 1vw;
+    /* margin: 0 1vw; */
     display: flex;
     line-height: 70px;
 
@@ -67,11 +67,11 @@ h1, h2 {
 
 .hero {
    
-    background-color: #D5D1CB;
+    background-color: rgba(213, 209, 203, 0.8);
     background-image: url(../images/photo-boards-OiV3i01sLqE-unsplash.smaller.jpg);
     /* background-blend-mode: overlay; */
     height: 100vh;
-    padding: 1em;
+    /* padding: 1em; */
     
     display: flex;
     flex-direction: column;
@@ -169,6 +169,19 @@ h1, h2 {
 
 /* get ahold of me */
 
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 .getahold {
     padding: 50px;
     font-family: Martel, sans-serif;
@@ -185,8 +198,17 @@ h1, h2 {
     padding: 175px 325px;
 }
 
+.musicstyles {
+    display: flex;
+    flex-row: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+
+
+}
 input[type=text]:focus {
-    background-color: #D5D1CB;
+    background-color: #f1efed;
   }
 
 textarea {
