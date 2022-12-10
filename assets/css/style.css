@@ -22,6 +22,14 @@ h1, h2 {
     font-size: 200%;
 }
 
+h3 {
+    font-family: Quicksand, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 6px;
+    color: #453d31;
+    font-size: 150%;
+}
+
 /* #logo {
     float: left;
     padding-left: 20px;
@@ -169,17 +177,16 @@ h1, h2 {
 
 /* get ahold of me */
 
-button,
+/* button,
 input,
-select,
-textarea {
+select {
   font-family: inherit;
   font-size: 100%;
   width: 500px;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+} */
 
 fieldset {
     background-color: red;
@@ -222,6 +229,7 @@ textarea {
     resize: both;
     outline: none;
     overflow: auto;
+    width: 100ch;
 }
 
 /* footer */
