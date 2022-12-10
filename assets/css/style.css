@@ -175,12 +175,21 @@ select,
 textarea {
   font-family: inherit;
   font-size: 100%;
-  width: 150px;
+  width: 500px;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+fieldset {
+    background-color: red;
+}
+
+legend {
+    background-color: pink;
+    color: purple;
+    padding: 5px 10px;
+}
 
 .getahold {
     padding: 50px;
@@ -203,18 +212,17 @@ textarea {
     flex-row: row;
     flex-wrap: wrap;
     align-items: stretch;
-
-
-
 }
+
 input[type=text]:focus {
     background-color: #f1efed;
   }
 
 textarea {
-    resize: none;
+    resize: both;
+    outline: none;
+    overflow: auto;
 }
-
 
 /* footer */
 footer {
