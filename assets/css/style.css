@@ -122,7 +122,9 @@ h3 {
     background: #f1efed url("/assets/images/photo-boards-OiV3i01sLqE-unsplash.smaller.jpg") no-repeat center scroll;
 }
 
-#description h2 {
+/* description section */
+
+/* #description h2 {
     color: #rgba(69, 61, 49, .9);
     font-size: 120%;
     font-family: Martel, sans-serif;
@@ -136,9 +138,7 @@ h3 {
     bottom: 300px;
     right: 150px;
     position: center;
-} */
-
-/* description section */
+} */ */
 
 /* #description {
     border: 50px;
