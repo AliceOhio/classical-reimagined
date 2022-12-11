@@ -30,12 +30,6 @@ h3 {
     font-size: 150%;
 }
 
-/* #logo {
-    float: left;
-    padding-left: 20px;
-    max-height: 100px;
-} */
-
 /* navigation links (need to increase spacing between page names)*/
 #menu {
     font-size: 110%;
@@ -48,10 +42,6 @@ h3 {
     justify-content: space-around flex-end;
     
 }
-/* 
-#menu, #logo {
-    line-height: 75px;
-} */
 
 #menu li {
     list-style-type: none;
