@@ -85,26 +85,18 @@ h3 {
 }
 
 .hero-content {
-    /* position: relative; */
+    position: relative;
     font-family: Martel, sans-serif;
     color: #453d31;
     text-align: center;
     margin: 500px;
-    background-color: rgba(241, 239, 237, 0.6);
-
+    background-color: rgba(213, 209, 203, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60ch;
     border: 0.5px solid #453d31;
-    padding: 175px 325px;
-    
-}
-
-/* #hero-image {
-    height: 100vw;
-    width: 100vw;    
-    background: #f1efed url("/assets/images/photo-boards-OiV3i01sLqE-unsplash.smaller.jpg") no-repeat center scroll;
+    padding: 175px 325px; 
 }
 
 /* description section */
