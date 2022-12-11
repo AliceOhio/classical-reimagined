@@ -13,7 +13,7 @@ body {
     background-color: #D5D1CB;
 }
 
-/* headings and logo */
+/* headings */
 h1, h2 {
     font-family: Quicksand, sans-serif;
     text-transform: lowercase;
@@ -34,18 +34,17 @@ h3 {
 #menu {
     font-size: 110%;
     letter-spacing: 1px;
-    /* margin: 0 1vw; */
+    margin: 0.5vw 1vw;
+    height: 4.5vh;
     display: flex;
-    line-height: 70px;
-
+    line-height: 40px;
     flex-direction: row-reverse;
     justify-content: space-around flex-end;
-    
 }
 
 #menu li {
     list-style-type: none;
-    margin-right: 20px;
+    margin: 0.5vw;
 }
 
 #menu a {
